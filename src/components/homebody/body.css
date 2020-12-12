@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.background {
+  padding: 45px 0;
+  background-image: url(https://a0.muscache.com/airbnb/static/footer/background-317dd7c2cb678ddbdb0a983d511cb9a0.png);
+  background-color: #2b2d2e;
+  color: #fff;
+}
+
+.Applogo {
+  width: 20%;
+}
+
+.site-section {
+  padding: 2.5em 0;
+}
+@media (min-width: 768px) {
+  .site-section {
+    padding: 7em 0;
+  }
+}
+.site-section.site-section-sm {
+  padding: 4em 0;
+}
+
+.site-section-heading {
+  padding-bottom: 20px;
+  margin-bottom: 0px;
+  position: relative;
+  font-size: 2.5rem;
+}
+@media (min-width: 768px) {
+  .site-section-heading {
+    font-size: 3rem;
+  }
+}
+
+.section-title {
+  color: #000;
+  margin-bottom: 50px;
+}
+
+.trend-entry {
+  margin-bottom: 30px;
+}
+
+.post-meta {
+  font-size: 0.8rem;
+}
+
+/* .cardimg {
+  width: 20%;
+  align-items: center;
+} */

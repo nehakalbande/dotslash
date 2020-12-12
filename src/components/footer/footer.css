@@ -1,0 +1,85 @@
+.coll {
+  color: antiquewhite;
+}
+
+#goTop {
+  position: relative;
+  top: -50px;
+  align-content: center;
+  background: white;
+}
+
+.circle {
+  background-color: white;
+  height: 85px;
+  width: 85px;
+  border-radius: 50%;
+  padding: 2px;
+  margin-top: 65px;
+  margin-bottom: 4px;
+  margin-left: auto;
+  margin-right: auto;
+  top: -40px;
+  border: 3px solid #f95c39;
+  box-shadow: 0px 0px 6px black;
+}
+
+center {
+  display: block;
+}
+
+.coll p {
+  color: #f1ede9;
+  font-size: 18px;
+}
+.coll h2 {
+  color: #ef7f1a;
+}
+
+.roww {
+  padding-bottom: 20px;
+}
+
+.follow-icon {
+  padding: 5px;
+  color: white;
+  font-size: 47px;
+}
+.icon-div {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  margin-top: 20px;
+}
+.social-txt {
+  padding-top: 10px;
+  font-size: 20px;
+}
+.social-follow {
+  font-size: 20px;
+  padding: 5px;
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+}
+
+.coll a {
+  text-align: center;
+}
+
+.linkk {
+  color: rgb(238, 234, 225);
+}
+
+@media screen and (max-width: 500px) {
+  .coll {
+    max-width: 100%;
+  }
+  .roww {
+    flex-direction: column;
+  }
+}
+
+.linkss {
+  color: skyblue;
+}

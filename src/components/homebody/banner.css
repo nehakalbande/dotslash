@@ -1,0 +1,40 @@
+.bannerLogo {
+  display: flex;
+}
+
+.container2 {
+  padding: 90px;
+}
+
+.lead Button {
+  margin: 7px;
+}
+
+.lead .bddd {
+  color: aliceblue;
+  margin: 6px;
+}
+
+@media screen and (max-width: 500px) {
+  .bannerLogo {
+    display: none;
+  }
+  .container2 {
+    max-width: 100%;
+    padding: 30%;
+  }
+  .name {
+    width: 100%;
+    margin-left: 40px;
+  }
+  .lead {
+    margin-left: 40px;
+  }
+  p {
+    margin-left: 40px;
+  }
+}
+
+.name {
+  color: #fa7d09;
+}

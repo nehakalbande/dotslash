@@ -1,0 +1,24 @@
+.card_container {
+  max-width: 470px;
+  min-height: 400px;
+  padding: 10px;
+  background-color: red;
+  position: relative;
+}
+
+.img-card {
+  max-width: 100%;
+}
+.cardd-img {
+  height: 100%;
+  width: 100%;
+}
+
+.card-txt {
+  justify-content: space-between;
+}
+.rm-btn-nd {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
